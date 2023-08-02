@@ -7,7 +7,7 @@ const Banner = () => {
    return (
       <BannerStyles>
          <div className='container banner'>
-            <div className='banner__information'>
+            <div className='banner__information animate__animated animate__backInLeft'>
                <h1 className='title'>Ya no abandones los estudios por falta de tutor</h1>
                <h2 className='subtitle'>Servicio de tutoria académica personalizada.</h2>
                <p className='description'>
@@ -26,7 +26,7 @@ const Banner = () => {
                   </a>
                </div>
             </div>
-            <div className='banner__img'>
+            <div className='banner__img  animate__animated animate__backInRight'>
                <img width={579} height={447} src={bannerWeb} alt="img computer" />
             </div>
          </div>

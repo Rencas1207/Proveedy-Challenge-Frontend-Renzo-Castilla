@@ -6,6 +6,7 @@ export const BannerStyles = styled.section`
     display: flex;
     justify-content: start;
     position: relative;
+    overflow: hidden;
     ${breakpoints.tablet} {
       flex-direction: column;
       align-items: center;

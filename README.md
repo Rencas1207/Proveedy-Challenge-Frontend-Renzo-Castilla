@@ -15,6 +15,7 @@ Propuesta Landing Page Yachai
 - 🛠️ react v18
 - 🛠️ fake data
 - 🛠️ styled-components
+- 🛠️ animate css
 
 ## Preview
 
