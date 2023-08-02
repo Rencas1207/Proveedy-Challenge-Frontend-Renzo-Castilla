@@ -1,7 +1,7 @@
 import { BannerStyles } from './BannerStyles'
 
 import learnMore from '../../assets/icons/learn-more.svg';
-import bannerWeb from '../../assets/imgs/banner_web.png';
+import bannerWeb from '../../assets/imgs/banner_web.webp';
 
 const Banner = () => {
    return (
@@ -20,7 +20,7 @@ const Banner = () => {
                         Crea un tutor gratis
                      </span>
                   </button>
-                  <a href='#' className='learn-more'>
+                  <a href='#ia' className='learn-more'>
                      <span>Saber más</span>
                      <img src={learnMore} alt="icon learn more" />
                   </a>

@@ -1,14 +1,21 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../styles/MediaQueries';
 
 export const BannerStyles = styled.section`
-  margin: 80px 0;
   .banner {
     display: flex;
     justify-content: start;
     position: relative;
+    ${breakpoints.tablet} {
+      flex-direction: column;
+      align-items: center;
+    }
     &__information {
       max-width: 500px;
-
+      ${breakpoints.tablet} {
+        max-width: 100%;
+        text-align: center;
+      }
       .title {
         color: var(--color-title);
         font-size: 46px;
@@ -17,6 +24,11 @@ export const BannerStyles = styled.section`
         letter-spacing: 1.15px;
         max-width: 380px;
         margin: 0 0 20px;
+        ${breakpoints.tablet} {
+          font-size: 32px;
+          line-height: 32px;
+          max-width: 100%;
+        }
       }
       .subtitle {
         color: var(--color-subtitle);
@@ -47,6 +59,9 @@ export const BannerStyles = styled.section`
         display: flex;
         align-items: center;
         gap: 30px;
+        ${breakpoints.tablet} {
+          justify-content: center;
+        }
         .btn-primary {
           padding: 15px 20px;
           span {
@@ -64,6 +79,9 @@ export const BannerStyles = styled.section`
       position: absolute;
       right: 0;
       top: 0;
+      ${breakpoints.tablet} {
+        display: none;
+      }
     }
   }
 `;

@@ -1,13 +1,13 @@
 import { IAStyles } from "./IAStyles"
 
-import quiz from '../../assets/imgs/quiz.png';
-import dashboard from '../../assets/imgs/dashboard.png';
-import chatbot from '../../assets/imgs/chatbot.png';
+import quiz from '../../assets/imgs/quiz.webp';
+import dashboard from '../../assets/imgs/dashboard.webp';
+import chatbot from '../../assets/imgs/chatbot.webp';
 import learMoreBlue from '../../assets/icons/learn-more-blue.svg';
 
 const IA = () => {
    return (
-      <IAStyles>
+      <IAStyles id="ia">
          <div className="container ia-container">
             <h2>Usa Inteligencia artificial para mejorar tu aprendizaje.</h2>
             <div className="ia-container__items">

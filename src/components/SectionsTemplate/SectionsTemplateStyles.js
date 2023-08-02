@@ -1,13 +1,19 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../styles/MediaQueries';
 
-export const CreateStyles = styled.section`
-  margin: 80px 0;
-  .create-container {
+export const SectionsTemplateStyles = styled.section`
+  .section-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    ${breakpoints.phone} {
+      grid-template-columns: 1fr;
+    }
 
     &__information {
-      order: 2;
+      ${breakpoints.tablet} {
+        height: auto;
+        order: 2 !important;
+      }
       .label {
         color: var(--color-text-secondary);
         font-size: 16px;
@@ -74,7 +80,16 @@ export const CreateStyles = styled.section`
     }
 
     &__img {
-      order: 1;
+      ${breakpoints.tablet} {
+        text-align: center;
+      }
+      img {
+        ${breakpoints.tablet} {
+          height: auto;
+          order: 1 !important;
+          text-align: center;
+        }
+      }
     }
   }
 `;
