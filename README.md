@@ -10,6 +10,10 @@ Propuesta Landing Page Yachai
 
 ✅ Se añadió responsive design con buenas prácticas.
 
+## Metrics - Lighthouse
+
+![image](https://github.com/Rencas1207/Proveedy-Challenge-Frontend-Renzo-Castilla/assets/69434962/99ca186e-b42e-4060-8355-c689259947bd)
+
 ## Technologies
 
 - 🛠️ react v18
