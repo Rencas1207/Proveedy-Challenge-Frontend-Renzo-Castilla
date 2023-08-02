@@ -2,7 +2,7 @@
 
 Propuesta Landing Page Yachai
 
-✅ Se hizo en react colocando un "fake data" para reutilizar los secciones por componentes.
+✅ Desarrollado en react colocando un "fake data" para reutilizar los secciones por componentes.
 
 ✅ Buena semántica en el HTML para el SEO.
 
