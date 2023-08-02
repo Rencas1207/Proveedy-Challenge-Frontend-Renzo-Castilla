@@ -30,7 +30,7 @@ export const dataSections = [
       },
     ],
     imgSection:
-      'https://res.cloudinary.com/rencasweb/image/upload/v1690955399/proveedy-challenge/upload-information_vv9coh.png',
+      'https://res.cloudinary.com/rencasweb/image/upload/v1690995071/proveedy-challenge/webp/upload-information_dpboxi.webp',
     width: 536,
     height: 536,
     alt: 'img upload information',
@@ -67,7 +67,7 @@ export const dataSections = [
       },
     ],
     imgSection:
-      'https://res.cloudinary.com/rencasweb/image/upload/v1690955399/proveedy-challenge/publish_pudja5.png',
+      'https://res.cloudinary.com/rencasweb/image/upload/v1690995064/proveedy-challenge/webp/publish_yjketw.webp',
     width: 536,
     height: 536,
     alt: 'img publish',
@@ -91,7 +91,7 @@ export const dataSections = [
       },
     ],
     imgSection:
-      'https://res.cloudinary.com/rencasweb/image/upload/v1690955399/proveedy-challenge/performance_r2awuj.png',
+      'https://res.cloudinary.com/rencasweb/image/upload/v1690995058/proveedy-challenge/webp/performance_mguscj.webp',
     width: 536,
     height: 536,
     alt: 'img performance',

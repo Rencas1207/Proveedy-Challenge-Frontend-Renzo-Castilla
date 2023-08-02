@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { breakpoints } from '../../styles/MediaQueries';
 
 export const IAStyles = styled.section`
+  background-color: var(--bg-secondary);
   .ia-container {
-    background-color: var(--bg-secondary);
     padding: 60px 50px 80px;
     ${breakpoints.phone} {
       padding-left: 20px;

@@ -33,6 +33,11 @@ export const HeaderStyles = styled.header`
     justify-content: space-between;
     align-items: center;
     height: 65px;
+    ul {
+      display: inherit;
+      gap: inherit;
+      flex-direction: inherit;
+    }
     li {
       list-style-type: none;
       a {
@@ -156,7 +161,7 @@ export const HeaderStyles = styled.header`
       flex-direction: column;
       top: 65px;
       right: 0;
-      width: 160px;
+      width: 150px;
       transition: all 0.5s ease;
       pointer-events: none;
       opacity: 0;
@@ -192,6 +197,7 @@ export const HeaderStyles = styled.header`
       width: 40px;
       height: 40px;
       padding: initial;
+      min-width: fit-content;
     }
 
     span {

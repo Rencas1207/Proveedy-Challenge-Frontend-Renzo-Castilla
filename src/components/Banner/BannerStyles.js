@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import { breakpoints } from '../../styles/MediaQueries';
 
 export const BannerStyles = styled.section`
+  position: relative;
+  overflow: hidden;
   .banner {
     display: flex;
     justify-content: start;
-    position: relative;
-    overflow: hidden;
     ${breakpoints.tablet} {
       flex-direction: column;
       align-items: center;

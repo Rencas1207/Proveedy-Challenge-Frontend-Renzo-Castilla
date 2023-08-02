@@ -40,6 +40,9 @@ export const SectionsTemplateStyles = styled.section`
       .actions {
         display: flex;
         justify-content: start;
+        ${breakpoints.phone} {
+          justify-content: center;
+        }
         .btn-primary {
           width: fit-content;
           margin-top: 40px;

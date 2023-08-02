@@ -92,6 +92,8 @@ export const GlobalStyles = createGlobalStyle`
       gap: 5px;
       cursor: pointer;
       padding: 10px 12px;
+      min-width: 105px;
+      width: fit-content;
    }
 
    .btn-primary {
@@ -116,7 +118,7 @@ export const GlobalStyles = createGlobalStyle`
          padding-top: 3px;
       }
       &:hover {
-         padding-left: 10px;
+         padding-left: 12px;
          ${breakpoints.tablet} {
             padding-left: 0;
          }
